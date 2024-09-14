@@ -1,0 +1,17 @@
+// Sequência de Fibonacci. A sequência de Fibonacci é uma série de números em que cada número
+// é a soma dos dois números anteriores. Os dois primeiros números da sequência são 0 e 1.
+
+
+let t1 = 0
+let t2 = 1
+let t3 = t1 + t2
+let i;
+console.log(t1);
+console.log(t2);
+
+for(i=1; i<=15; i++){
+    console.log(t3)
+    t1 = t2;
+    t2 = t3;
+    t3 = t1 + t2;
+}

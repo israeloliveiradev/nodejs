@@ -1,0 +1,8 @@
+let s1 = 0;
+
+
+while( s1 < 21){
+    s1 += 2
+    console.log(`número ${s1}`)
+    s1++ 
+}
