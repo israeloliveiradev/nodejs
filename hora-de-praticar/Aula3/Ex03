@@ -1,0 +1,16 @@
+    let list = [];
+
+    let i;
+
+    let impares = i % 1;
+
+
+    for(i = 1; i <=100; i++){
+        list.push(i)
+
+        let pares = i % 0;
+        console.log(pares)
+
+
+
+    }
